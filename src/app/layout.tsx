@@ -1,3 +1,4 @@
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import type { Metadata } from 'next';
 import { Inter, Geist_Mono } from 'next/font/google';
 import './globals.css';
@@ -37,8 +38,9 @@ export default function RootLayout({
         >
           <div className="flex flex-col min-h-screen bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:80px_80px]">
             <main className="grow">{children}</main>
+            <Footer />
+            <SpeedInsights />
           </div>
-          <Footer />
         </ThemeProvider>
       </body>
     </html>
