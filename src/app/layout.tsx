@@ -31,7 +31,7 @@ export default function RootLayout({
         className={`${inter.variable} ${geistMono.variable} antialiased font-sans`}
       >
         <ThemeProvider
-          attribute="class"
+          attribute="data-theme"
           defaultTheme="dark"
           enableSystem={false}
           disableTransitionOnChange

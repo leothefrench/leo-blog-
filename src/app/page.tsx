@@ -43,12 +43,7 @@ export default function Home() {
 
               <CardContent className="grow">
                 {/* Correction : On utilise text-foreground pour être sûr que ce soit blanc/clair en dark mode */}
-                {/* <p className="text-sm text-muted-foreground leading-relaxed">
-                  {post.description}
-                </p> */}
-                <p className="text-sm text-[#FF0000]">
-                  {' '}
-                  {/* On force le ROUGE vif */}
+                <p className="text-sm text-muted-foreground leading-relaxed">
                   {post.description}
                 </p>
               </CardContent>
