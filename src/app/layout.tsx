@@ -31,9 +31,9 @@ export default function RootLayout({
         className={`${inter.variable} ${geistMono.variable} antialiased font-sans`}
       >
         <ThemeProvider
-          attribute="data-theme"
-          defaultTheme="dark"
-          enableSystem={false}
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
           disableTransitionOnChange
         >
           <div className="flex flex-col min-h-screen bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-size-[80px_80px]">
